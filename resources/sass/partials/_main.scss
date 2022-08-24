@@ -1,0 +1,31 @@
+.jumbotron{
+    height: 350px;
+    overflow-y: hidden;
+}
+.comics{
+    background-color: black;
+    background-image: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    .item{
+        width: calc((100% / 6) - 20px);
+        margin-bottom: 50px;
+    
+        .image {
+            height: 200px;
+            overflow-y: hidden;
+            
+            img{
+                width: 100%;
+            }
+        }
+        
+        .text{
+            color: lightgrey;
+            margin-top: 15px;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+}

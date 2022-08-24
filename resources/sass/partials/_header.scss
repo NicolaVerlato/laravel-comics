@@ -1,5 +1,5 @@
 header{
-    padding-top: 20px;
+    padding: 20px 0;
 
 .container{
     display: flex;
@@ -12,6 +12,7 @@ header{
     .header-list ul{
         display: flex;
     }
+    
     li{
         padding: 10px;
         font-size: 12px;

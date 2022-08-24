@@ -28,7 +28,7 @@ li {
 }
 
 header {
-  padding-top: 20px;
+  padding: 20px 0;
 }
 header .container {
   display: flex;
@@ -60,8 +60,8 @@ section {
 }
 section .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  position: relative;
   padding: 30px 0;
 }
 section .links {
@@ -90,9 +90,6 @@ section li a {
 }
 section .image img {
   width: 460px;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .bottom {
@@ -126,4 +123,33 @@ section .image img {
 }
 .bottom a img {
   width: 30px;
+}
+
+.jumbotron {
+  height: 350px;
+  overflow-y: hidden;
+}
+
+.comics {
+  background-color: black;
+  background-image: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comics .item {
+  width: calc(16.6666666667% - 20px);
+  margin-bottom: 50px;
+}
+.comics .item .image {
+  height: 200px;
+  overflow-y: hidden;
+}
+.comics .item .image img {
+  width: 100%;
+}
+.comics .item .text {
+  color: lightgrey;
+  margin-top: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
 }

@@ -18,6 +18,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    $series = config('comics');
-    return view('home', $series);
+
+    $comics = config('comics');
+
+    $data = [
+        'comics' => $comics
+    ];
+
+    return view('home', $data);
+
 })->name('home');
