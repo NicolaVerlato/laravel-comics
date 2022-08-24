@@ -1,0 +1,30 @@
+header{
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        width: 80px;
+    }
+    .header-list ul{
+        display: flex;
+    }
+    li{
+        padding: 10px;
+        font-size: 12px;
+
+        &.underline{
+            border-bottom: 4px solid $secondary_color;
+
+            a{
+                color: $secondary_color;
+            }
+        }
+    }
+    li a{
+        color: $main_color;
+    }
+}

@@ -26,3 +26,32 @@ li {
   width: 70%;
   margin: 0 auto;
 }
+
+header {
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .logo {
+  width: 80px;
+}
+.container .header-list ul {
+  display: flex;
+}
+.container li {
+  padding: 10px;
+  font-size: 12px;
+}
+.container li.underline {
+  border-bottom: 4px solid #0082f9;
+}
+.container li.underline a {
+  color: #0082f9;
+}
+.container li a {
+  color: black;
+}
