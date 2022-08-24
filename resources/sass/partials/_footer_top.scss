@@ -1,0 +1,48 @@
+section{
+    background-image: url('../images/footer-bg.jpg');
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 30px 0;
+    }
+    
+    .links{
+        display: flex;
+    }
+    
+    .list-item{
+        margin-right: 20px;
+        display: block;
+
+        ul{
+            display: block;
+        }
+    }
+    
+    .shop{
+        margin-top: 20px;
+    }
+    
+    h3{
+        color: white;
+        margin-bottom: 8px;
+    }
+    
+    li {
+        padding: 7px 0;
+
+        a{
+            color: grey;
+            font-size: 12px;
+        }
+    }
+    
+    .image img{
+        width: 460px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

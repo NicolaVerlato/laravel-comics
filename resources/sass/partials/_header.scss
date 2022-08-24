@@ -1,6 +1,6 @@
 header{
     padding-top: 20px;
-}
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -27,4 +27,5 @@ header{
     li a{
         color: $main_color;
     }
+}
 }

@@ -30,28 +30,100 @@ li {
 header {
   padding-top: 20px;
 }
-
-.container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .logo {
+header .container .logo {
   width: 80px;
 }
-.container .header-list ul {
+header .container .header-list ul {
   display: flex;
 }
-.container li {
+header .container li {
   padding: 10px;
   font-size: 12px;
 }
-.container li.underline {
+header .container li.underline {
   border-bottom: 4px solid #0082f9;
 }
-.container li.underline a {
+header .container li.underline a {
   color: #0082f9;
 }
-.container li a {
+header .container li a {
   color: black;
+}
+
+section {
+  background-image: url("../images/footer-bg.jpg");
+}
+section .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 30px 0;
+}
+section .links {
+  display: flex;
+}
+section .list-item {
+  margin-right: 20px;
+  display: block;
+}
+section .list-item ul {
+  display: block;
+}
+section .shop {
+  margin-top: 20px;
+}
+section h3 {
+  color: white;
+  margin-bottom: 8px;
+}
+section li {
+  padding: 7px 0;
+}
+section li a {
+  color: grey;
+  font-size: 12px;
+}
+section .image img {
+  width: 460px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom {
+  background-color: #303030;
+  background-image: none;
+  padding: 30px 0;
+}
+.bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom .btn {
+  border: 2px solid #0082f9;
+  padding: 10px;
+}
+.bottom .btn a {
+  color: white;
+  font-size: 13px;
+}
+.bottom ul {
+  display: flex;
+  align-items: center;
+}
+.bottom li {
+  padding: 0 10px;
+}
+.bottom .blue a {
+  color: #0082f9;
+  font-weight: 700;
+}
+.bottom a img {
+  width: 30px;
 }
