@@ -176,3 +176,11 @@ section .image img {
   width: 50px;
   margin-right: 15px;
 }
+
+.small-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.small-container img {
+  width: 80px;
+}

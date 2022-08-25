@@ -1,15 +1,11 @@
 @extends('layout.app')
 
 @section('main')
-    <section class="jumbotron">
-        <img src="{{asset('images/jumbotron.jpg') }}" alt="jumbotron image">
-    </section>
-
     <section class="comics">
         <div class="container">
             @foreach ($comics as $item)
                 <div class="item">
-                    <a href="#">
+                    <a href="{{ route('single_component', ['id' => $item['id']])}}">
                         <div class="image">
                             <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
                         </div>
