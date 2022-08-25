@@ -9,7 +9,7 @@
                     <a href="#">CHARACTERS</a>
                 </li>
                 <li class="underline">
-                    <a href="#">COMICS</a>
+                    <a href="{{ route('home') }}">COMICS</a>
                 </li>
                 <li>
                     <a href="#">MOVIES</a>
